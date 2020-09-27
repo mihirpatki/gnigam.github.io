@@ -1486,9 +1486,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 	}
 }
 
-.site-logo {
+.site-navbar .site-logo {
 	@include media-breakpoint-down(md) {
 		top: 0;
+    margin-left: 0;
+    max-width: 100%;
 	}
 }
 .main-menu {
