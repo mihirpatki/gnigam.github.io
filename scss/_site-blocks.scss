@@ -1516,21 +1516,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 }
 
 .bg-image2 {
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	&.overlay {
-		&:before {
-			content: "";
-			@extend .primary-gradient;
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			opacity: .7;
-		}
-	}
+	background-color: white;
 }
 
 .person {
@@ -1641,5 +1627,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 			border-color: $primary!important;
 			color: $white;
 		}
+	}
+}
+
+.job-section {
+	margin: auto;
+  text-align: center;
+	font-size: 1.2rem;
+	color: black;
+
+	a {
+		text-decoration: underline !important;
+		cursor: pointer;
 	}
 }
