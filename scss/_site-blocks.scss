@@ -1566,6 +1566,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 			transition: .3s all ease-in-out;
 			transform: scale(1.0);
 			border-radius: 50%;
+			min-width: 100%;
 		}
 		.social {
 			z-index: 2;
