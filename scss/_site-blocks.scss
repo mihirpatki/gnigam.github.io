@@ -52,7 +52,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 	}
 	
 	h1 {
-		font-size: 3.5rem;
+		font-size: 2.5rem;
 		font-weight: 400;
 		color: $black;
 		font-weight: 900;
@@ -1565,6 +1565,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 			position: relative;
 			transition: .3s all ease-in-out;
 			transform: scale(1.0);
+			border-radius: 50%;
 		}
 		.social {
 			z-index: 2;
