@@ -1647,3 +1647,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 		margin-right: 10rem;
 	}
 }
+
+#features-section {
+	ul {
+		text-align: left;
+		margin-left: -0.5rem;
+	}
+}
+
+#about-section {
+	p, ul {
+		font-size: 0.9rem;
+	}
+}
